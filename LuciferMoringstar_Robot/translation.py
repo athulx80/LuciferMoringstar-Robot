@@ -54,32 +54,32 @@ CHAT_LOGS_MESSAGE = """
 • **{title}**\n• `{id}`\n• **{join}**"""
 
 SPELLMODE_MESSAGE = """
-**__Hello 👋 {mention}**__
+**__Heyy {mention}!**__
 **__Couldn't Find {query} ?  Please Click Your Request Name**__"""
 
 REQUEST_MESSAGE = """
 **Requested By:** {mention}\n**Requested Name:** {query}\n™ {group_name}"""
 
 WELCOME_MESSAGE = """
-𝙷𝙴𝙻𝙻𝙾 {mention} 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 {group_name}"""
+𝖧𝖾𝗒𝗒 {mention}! 𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 {group_name}!!"""
 
 FILECAPTION_MESSAGE = """
-• `{file_name}` \n 𝙹𝙾𝙸𝙽 : @Night_MovieZ"""
+• `{file_name}` \n ᴊᴏɪɴ : @MEmpire_Official_Group"""
 
 ADMIN_CMD_MESSAGE = """
 𝙰𝙳𝙼𝙸𝙽𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 :-
 \n • /broadcast : 𝚁𝙴𝙿𝙻𝚈 𝙰𝙽𝚃 𝙼𝙴𝙳𝙸𝙰/𝙼𝚂𝙶\n • /total : 𝙶𝙴𝚃 𝙵𝙸𝙻𝙴𝚂 𝙲𝙾𝚄𝙽𝚃\n • /delete : 𝙳𝙴𝙻𝙴𝚃𝙴 𝚂𝙸𝙽𝙶𝙻𝙴 𝙵𝙸𝙻𝙴𝚂\n • /delall : 𝙳𝙴𝙻𝙴𝚃𝙴 𝙰𝙻𝙻 𝙵𝙸𝙻𝙴𝚂\n • /logs : 𝙶𝙴𝚃 𝙱𝙾𝚃 𝙻𝙾𝙶𝚂"""
 
 STATUS_MESSAGE = """
-× {bot_name} 𝚂𝚃𝙰𝚃𝚄𝚂 :-
-× 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂 : {users}\n× 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂 : {files}\n× 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂 : {chats}"""
+× {bot_name} ꜱᴛᴀᴛᴜꜱ :-
+× ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ : {users}\n× ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : {files}\n× ᴛᴏᴛᴀʟ ᴄʜᴀᴛꜱ : {chats}"""
 
 GETFILE_TEXT = """
-𝙷𝙴𝚈 {mention} 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈
-\n𝙵𝙸𝙻𝙴𝙽𝙰𝙼𝙴 : `{file_name}`\n\n𝙵𝙸𝙻𝙴𝚂𝙸𝚉𝙴 : {file_size}"""
+𝖧𝖾𝗒𝗒 {mention} 𝖸𝗈𝗎𝗋 𝖥𝗂𝗅𝖾𝗌 𝖨𝗌 𝖱𝖾𝖺𝖽𝗒!
+\nꜰɪʟᴇɴᴀᴍᴇ : `{file_name}`\n\nꜰɪʟᴇꜱɪᴢᴇ : {file_size}"""
 
 NOT_SUB = """
-𝙸 𝙻𝙸𝙺𝙴 𝚈𝙾𝚄𝚁 𝚂𝙼𝙰𝚁𝚃𝙽𝙴𝚂𝚂, 𝙱𝚄𝚃 𝙳𝙾𝙽'𝚃 𝙱𝙴 𝙾𝚅𝙴𝚁𝚂𝙼𝙰𝚁𝚃 😤.\n 𝙵𝚒𝚛𝚜𝚝 𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙼𝚢 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 😕"""              
+𝖨 𝖫𝗂𝗄𝖾 𝖸𝗈𝗎𝗋 𝖲𝗆𝖺𝗋𝗍𝗇𝖾𝗌𝗌, 𝖡𝗎𝗍 𝖣𝗈𝗇'𝗍 𝖡𝖾 𝖮𝗏𝖾𝗋𝗌𝗆𝖺𝗋𝗍 😏.\n 𝖥𝗂𝗋𝗌𝗍 𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 𝖬𝗒 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 😒"""              
 
 USAGE_MESSAGE = """
 🤠 🄷🄾🅆 🅃🄾 🅄🅂🄴
