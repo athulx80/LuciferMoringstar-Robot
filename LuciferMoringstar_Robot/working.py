@@ -43,10 +43,10 @@ async def pmbot_filters(client, update):
         try:
             user = await client.get_chat_member(int(AUTH_CHANNEL), update.from_user.id)
             if user.status == enums.ChatMemberStatus.RESTRICTED:
-                await client.send_message(chat_id=update.from_user.id, text="Sorry Sir, You are Banned to use me.", disable_web_page_preview=True)
+                await client.send_message(chat_id=update.from_user.id, text="Sorry, You are Banned to use me.", disable_web_page_preview=True)
                 return
         except UserNotParticipant:
-            await client.send_message(chat_id=update.from_user.id, text="**𝙿𝙻𝙴𝙰𝚂𝙴 𝙹𝙾𝙸𝙽 𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃..!**", reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("📢 𝙹𝙾𝙸𝙽 𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 📢", url=invite_link.invite_link) ]] ))           
+            await client.send_message(chat_id=update.from_user.id, text="𝖯𝗅𝖾𝖺𝗌𝖾 𝖩𝗈𝗂𝗇 𝖬𝗒 𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖳𝗈 𝖴𝗌𝖾 𝖳𝗁𝗂𝗌 𝖡𝗈𝗍!", reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("⭕ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link) ]] ))           
             return
 
     if update.chat.id in temp.PMAF_OFF:
