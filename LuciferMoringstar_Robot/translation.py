@@ -25,10 +25,11 @@
 # License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
 
 START_MESSAGE = """
-👋Hello {mention}..!
-It's Power Full [{name}](t.me/{username}) Here 😎
-Add Me To Your Group And Make Sure I'm an Admin There..!
-And Enjoy My Pever Show..! 🤪"""
+𝖧𝖾𝗒 {mention}, 𝖭𝗂𝖼𝖾 𝖳𝗈 𝖬𝖾𝖾𝗍 𝗒𝗈𝗎 🌝
+𝖬𝗒 𝖭𝖺𝗆𝖾 𝖨𝗌 [{name}](t.me/{username}). 𝖨'𝗆 𝖩𝗎𝗌𝗍 𝖠 𝖲𝗂𝗆𝗉𝗅𝖾 𝖯𝗋𝖾-𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝖾𝖽 𝖠𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍.
+
+𝖨𝗍'𝗌 𝖤𝖺𝗌𝗒 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾; 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖺𝗌 𝖠𝖽𝗆𝗂𝗇.
+
 
 HELP_MESSAGE = """
 𝙷𝙴𝙻𝙻𝙾 {mention}
