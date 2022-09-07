@@ -43,7 +43,7 @@ ABOUT_MESSAGE = """
 ➲ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 {pyro_version}
 ➲ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : [𝖬𝗈𝗇𝗀𝗈𝖣𝖡](https://www.mongodb.com/)
 ➲ 𝖦𝗂𝗍𝖧𝗎𝖻 : [𝖥𝗈𝗅𝗅𝗈𝗐](https://github.com/athulx80)
-
+➲ 𝖦𝗋𝗈𝗎𝗉 : [𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾](https://t.me/+hC5tRAvQHHplMWQ1)
 ➲ 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : [𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾](https://t.me/+L8SWfrF_7m04ODZl)
 ➲ 𝖵𝖾𝗋𝗌𝗂𝗈𝗇 : {version}
 ➲ 𝖲𝖾𝗋𝗏𝖾𝗋 : [𝖧𝖾𝗋𝗈𝗄𝗎](https://dashboard.heroku.com/)
@@ -83,25 +83,12 @@ GETFILE_TEXT = """
 NOT_SUB = """
 𝖨 𝖫𝗂𝗄𝖾 𝖸𝗈𝗎𝗋 𝖲𝗆𝖺𝗋𝗍𝗇𝖾𝗌𝗌, 𝖡𝗎𝗍 𝖣𝗈𝗇'𝗍 𝖡𝖾 𝖮𝗏𝖾𝗋𝗌𝗆𝖺𝗋𝗍 😏.\n 𝖥𝗂𝗋𝗌𝗍 𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 𝖬𝗒 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 😒"""              
 
-USAGE_MESSAGE = """
-🤠 🄷🄾🅆 🅃🄾 🅄🅂🄴
 
- • [𝙸𝙽𝚃𝚁𝙾](https://youtu.be/zk5Rs3_Cqhw?t=0m00s)
- • [𝙰𝙳𝙳 𝙵𝙸𝙻𝙴𝚂](https://youtu.be/zk5Rs3_Cqhw?t=0m30s)
- • [𝙶𝙴𝚃 𝙰𝙻𝙻 𝙵𝙸𝙻𝙴 𝙲𝙾𝚄𝙽𝚃](https://youtu.be/zk5Rs3_Cqhw?t=1m01s)
- • [𝙳𝙴𝙻𝙴𝚃𝙴 𝙵𝙸𝙻𝙴𝚂](https://youtu.be/zk5Rs3_Cqhw?t=1m25)
- • [𝙱𝙾𝚃 𝙿𝙴𝚁𝙼𝙸𝚂𝚂𝙸𝙾𝙽 & 𝚅𝙸𝙰](https://youtu.be/zk5Rs3_Cqhw?t=3m14s)
- • [𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙻𝙸𝚂𝚃](https://youtu.be/zk5Rs3_Cqhw?t=5m13s)
- • [𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙿𝙼 𝙵𝙸𝙻𝚃𝙴𝚁](https://youtu.be/zk5Rs3_Cqhw?t=5m31s)
- • [𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂 & 𝚂𝙴𝚃𝚃𝙸𝙽𝙶𝚂](https://youtu.be/zk5Rs3_Cqhw?t=6m17s)
- • [𝙲𝚄𝚂𝚃𝙾𝙼𝙸𝚉𝚂](https://youtu.be/zk5Rs3_Cqhw?t=9m50s)
 
-× [𝙷𝚘𝚠 𝚃𝚘 𝚂𝚎𝚝 𝙼𝚎𝚗𝚞 𝙱𝚞𝚝𝚝𝚘𝚗](https://youtu.be/k1QQuZke56s)
 
-× [𝙷𝚘𝚠 𝚃𝚘 𝙲𝚛𝚎𝚊𝚝𝚎 𝚃𝚑𝚒𝚜 𝚃𝚢𝚙𝚎 𝙾𝚏 𝙱𝚘𝚝](https://youtu.be/gdz9PAGwEns)
 
-× 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝙳 𝙱𝚈
-  - [{}](t.me/{})"""
+
+
 
 
 
