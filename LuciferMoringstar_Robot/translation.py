@@ -42,11 +42,11 @@ ABOUT_MESSAGE = """
 ➲ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇𝟥
 ➲ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 {pyro_version}
 ➲ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : [𝖬𝗈𝗇𝗀𝗈𝖣𝖡](https://www.mongodb.com/)
-𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : [{name}](https://t.me/{username})
-𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽3 : 
+➲ 𝖦𝗂𝗍𝖧𝗎𝖻 : [𝖥𝗈𝗅𝗅𝗈𝗐](https://github.com/athulx80)
+
 ➲ 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : [𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾](https://t.me/+L8SWfrF_7m04ODZl)
 ➲ 𝖵𝖾𝗋𝗌𝗂𝗈𝗇 : {version}
-➲ 𝖲𝖾𝗋𝗏𝖾𝗋 : [𝖧𝖾𝗋𝗈𝗄𝗎]
+➲ 𝖲𝖾𝗋𝗏𝖾𝗋 : [𝖧𝖾𝗋𝗈𝗄𝗎](https://dashboard.heroku.com/)
 """
 
 SETTINGS_MESSAGE = """
