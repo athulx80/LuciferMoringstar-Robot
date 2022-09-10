@@ -72,11 +72,11 @@ async def start(bot: lucifermoringstar_robot, update):
             await update.reply_text(f"ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.!\n\nᴇʀʀᴏʀ:`{error}`")
 
     if len(update.command) ==2 and update.command[1] in ["subscribe"]:
-        FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+        FORCES = ["https://telegra.ph/file/c8da76cb4b85187755d89.jpg"]
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
-        pr0fess0r_99 = [[ InlineKeyboardButton("🔔 SUBSCRIBE 🔔", url=invite_link.invite_link) ]]
+        pr0fess0r_99 = [[ InlineKeyboardButton("🔔 ꜱᴜʙꜱᴄʀɪʙᴇ 🔔", url=invite_link.invite_link) ]]
         pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
-        await update.reply_photo(photo=random.choice(FORCES), caption=f"""<i><b>𝙷𝙴𝙻𝙻𝙾 {update.from_user.mention}. \n 𝚈𝙾𝚄 𝙷𝙰𝚅𝙴 <a href="{invite_link.invite_link}"> 𝙽𝙾𝚃 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴𝙳</a> 𝚃𝙾 <a href="{invite_link.invite_link}">𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻</a>.𝚂𝙾 𝚈𝙾𝚄 𝙳𝙾 𝙽𝙾𝚃 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙵𝙸𝙻𝙴𝚂 𝙾𝙽 𝙱𝙾𝚃 𝙿𝙼, 𝚅𝙸𝙰 𝙰𝙽𝙳 𝙶𝚁𝙾𝚄𝙿 (𝙵𝙸𝙻𝚃𝙴𝚁)</i></b>""", reply_markup=pr0fess0r_99)
+        await update.reply_photo(photo=random.choice(FORCES), caption=f"""<i><b>𝖧𝖾𝗒 {update.from_user.mention}. \n 𝖸𝗈𝗎 𝖧𝖺𝗏𝖾 <a href="{invite_link.invite_link}"> </a>  𝖳𝗈 <a href="{invite_link.invite_link}">𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻</a>.𝚂𝙾 𝚈𝙾𝚄 𝙳𝙾 𝙽𝙾𝚃 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙵𝙸𝙻𝙴𝚂 𝙾𝙽 𝙱𝙾𝚃 𝙿𝙼, 𝚅𝙸𝙰 𝙰𝙽𝙳 𝙶𝚁𝙾𝚄𝙿 (𝙵𝙸𝙻𝚃𝙴𝚁)</i></b>""", reply_markup=pr0fess0r_99)
         return
 
     if len(update.command) != 2:
