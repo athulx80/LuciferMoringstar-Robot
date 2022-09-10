@@ -59,7 +59,7 @@ async def start(bot: lucifermoringstar_robot, update):
                 pr0fess0r_99 = [[ InlineKeyboardButton("⭕ ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⭕", url=invite_link.invite_link) ],
                                 [ InlineKeyboardButton("🔄 ᴛʀʏ ᴀɢᴀɪɴ 🔄", callback_data=f"luciferPM#{file_id}") ]]
                 pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
-                await update.reply_photo(photo=random.choice(FORCES), caption=f"""<i><b>𝖧𝖾𝗒 {update.from_user.mention}. \n 𝖸𝗈𝗎 𝖧𝖺𝗏𝖾 <a href="{invite_link.invite_link}"> 𝖭𝗈𝗍 𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾𝖽</a> 𝖳𝗈 <a href="{invite_link.invite_link}">𝖬𝗒 𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅</a>.𝚂𝙾 𝚈𝙾𝚄 𝙳𝙾 𝙽𝙾𝚃 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙵𝙸𝙻𝙴𝚂 𝙾𝙽 𝙱𝙾𝚃 𝙿𝙼 𝙾𝚁 𝙶𝚁𝙾𝚄𝙿 (𝙵𝙸𝙻𝚃𝙴𝚁)</i></b>""", reply_markup=pr0fess0r_99)                
+                await update.reply_photo(photo=random.choice(FORCES), caption=f"""<i><b>𝖧𝖾𝗒 {update.from_user.mention}. \n 𝖸𝗈𝗎 𝖧𝖺𝗏𝖾 <a href="{invite_link.invite_link}"> 𝖭𝗈𝗍 𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾𝖽</a> 𝖳𝗈 <a href="{invite_link.invite_link}">𝖬𝗒 𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅</a>.𝖲𝗈 𝗒𝗈𝗎 𝖽𝗈 𝗇𝗈𝗍 𝗀𝖾𝗍 𝗍𝗁𝖾 𝖿𝗂𝗅𝖾𝗌 𝗈𝗇 𝖻𝗈𝗍 𝖯𝖬 𝗈𝗋 𝖦𝗋𝗈𝗎𝗉 (𝖿𝗂𝗅𝗍𝖾𝗋)</i></b>""", reply_markup=pr0fess0r_99)                
                 return
         try:
             mrk, file_id = update.text.split("-mo-tech-group-")
@@ -69,7 +69,7 @@ async def start(bot: lucifermoringstar_robot, update):
                 size = get_size(mrk.file_size)
                 await bot.send_cached_media(chat_id=update.from_user.id, file_id=file_id, caption=CUSTOM_FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=mrk.caption), protect_content=SAVE_FILES)
         except Exception as error:
-            await update.reply_text(f"𝚂𝙾𝙼𝙴𝚃𝙷𝙸𝙽𝙶 𝚆𝙴𝙽𝚃 𝚆𝚁𝙾𝙽𝙶.!\n\n𝙴𝚁𝚁𝙾𝚁:`{error}`")
+            await update.reply_text(f"ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.!\n\nᴇʀʀᴏʀ:`{error}`")
 
     if len(update.command) ==2 and update.command[1] in ["subscribe"]:
         FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
