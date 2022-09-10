@@ -76,18 +76,18 @@ async def start(bot: lucifermoringstar_robot, update):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         pr0fess0r_99 = [[ InlineKeyboardButton("🔔 ꜱᴜʙꜱᴄʀɪʙᴇ 🔔", url=invite_link.invite_link) ]]
         pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
-        await update.reply_photo(photo=random.choice(FORCES), caption=f"""<i><b>𝖧𝖾𝗒 {update.from_user.mention}. \n 𝖸𝗈𝗎 𝖧𝖺𝗏𝖾 <a href="{invite_link.invite_link}"> </a>  𝖳𝗈 <a href="{invite_link.invite_link}">𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻</a>.𝚂𝙾 𝚈𝙾𝚄 𝙳𝙾 𝙽𝙾𝚃 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙵𝙸𝙻𝙴𝚂 𝙾𝙽 𝙱𝙾𝚃 𝙿𝙼, 𝚅𝙸𝙰 𝙰𝙽𝙳 𝙶𝚁𝙾𝚄𝙿 (𝙵𝙸𝙻𝚃𝙴𝚁)</i></b>""", reply_markup=pr0fess0r_99)
+        await update.reply_photo(photo=random.choice(FORCES), caption=f"""<i><b>𝖧𝖾𝗒 {update.from_user.mention}. \n 𝖸𝗈𝗎 𝖧𝖺𝗏𝖾 <a href="{invite_link.invite_link}"> 𝖭𝗈𝗍 𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾𝖽</a>  𝖳𝗈 <a href="{invite_link.invite_link}">𝖬𝗒 𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅</a>.𝖲𝗈 𝖸𝗈𝗎 𝖣𝗈 𝖭𝗈𝗍 𝖦𝖾𝗍 𝖳𝗁𝖾 𝖥𝗂𝗅𝖾𝗌 𝖮𝗇 𝖡𝗈𝗍 𝖯𝖬, 𝖵𝗂𝖺 𝖺𝗇𝖽 𝖦𝗋𝗈𝗎𝗉 (𝖿𝗂𝗅𝗍𝖾𝗋)</i></b>""", reply_markup=pr0fess0r_99)
         return
 
     if len(update.command) != 2:
-        pr0fess0r_99 = [[ InlineKeyboardButton("× 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ×", url=f"http://t.me/{temp.Bot_Username}?startgroup=true") ],
-                        [ InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💬", url=f"t.me/{SUPPORT}"), InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="t.me/Mo_Tech_YT") ],
-                        [ InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿", callback_data="help"), InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃 🤠", callback_data="about") ]] 
+        pr0fess0r_99 = [[ InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"http://t.me/{temp.Bot_Username}?startgroup=true") ],
+                        [ InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"t.me/{SUPPORT}"), InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/+L8SWfrF_7m04ODZl") ],
+                        [ InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"), InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about") ]] 
         await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(pr0fess0r_99))
 
 @lucifermoringstar_robot.on_message(filters.command(["admin", "admins"]) & filters.user(ADMINS) & filters.private, group=2)
 async def admin(bot: lucifermoringstar_robot, update):
-    await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=ADMIN_CMD_MESSAGE, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("× 𝙲𝙻𝙾𝚂𝙴 ×", callback_data="close") ]] ))
+    await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=ADMIN_CMD_MESSAGE, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data="close") ]] ))
 
 @lucifermoringstar_robot.on_message(filters.command(["about"]) & filters.private, group=3)
 async def about(bot: lucifermoringstar_robot, update):
