@@ -59,7 +59,7 @@ async def start(bot: lucifermoringstar_robot, update):
                 pr0fess0r_99 = [[ InlineKeyboardButton("⭕ ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⭕", url=invite_link.invite_link) ],
                                 [ InlineKeyboardButton("🔄 ᴛʀʏ ᴀɢᴀɪɴ 🔄", callback_data=f"luciferPM#{file_id}") ]]
                 pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
-                await update.reply_photo(photo=random.choice(FORCES), caption=f"""<i><b>𝙷𝙴𝙻𝙻𝙾 {update.from_user.mention}. \n 𝚈𝙾𝚄 𝙷𝙰𝚅𝙴 <a href="{invite_link.invite_link}"> 𝙽𝙾𝚃 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴𝙳</a> 𝚃𝙾 <a href="{invite_link.invite_link}">𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻</a>.𝚂𝙾 𝚈𝙾𝚄 𝙳𝙾 𝙽𝙾𝚃 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙵𝙸𝙻𝙴𝚂 𝙾𝙽 𝙱𝙾𝚃 𝙿𝙼 𝙾𝚁 𝙶𝚁𝙾𝚄𝙿 (𝙵𝙸𝙻𝚃𝙴𝚁)</i></b>""", reply_markup=pr0fess0r_99)                
+                await update.reply_photo(photo=random.choice(FORCES), caption=f"""<i><b>𝖧𝖾𝗒 {update.from_user.mention}. \n 𝖸𝗈𝗎 𝖧𝖺𝗏𝖾 <a href="{invite_link.invite_link}"> 𝖭𝗈𝗍 𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾𝖽</a> 𝖳𝗈 <a href="{invite_link.invite_link}">𝖬𝗒 𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅</a>.𝚂𝙾 𝚈𝙾𝚄 𝙳𝙾 𝙽𝙾𝚃 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙵𝙸𝙻𝙴𝚂 𝙾𝙽 𝙱𝙾𝚃 𝙿𝙼 𝙾𝚁 𝙶𝚁𝙾𝚄𝙿 (𝙵𝙸𝙻𝚃𝙴𝚁)</i></b>""", reply_markup=pr0fess0r_99)                
                 return
         try:
             mrk, file_id = update.text.split("-mo-tech-group-")
