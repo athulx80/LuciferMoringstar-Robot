@@ -50,14 +50,14 @@ async def start(bot: lucifermoringstar_robot, update):
             try:
                 user = await bot.get_chat_member(int(AUTH_CHANNEL), update.from_user.id)
                 if user.status == enums.ChatMemberStatus.RESTRICTED:
-                    await bot.send_message(chat_id=update.from_user.id, text="""𝚂𝙾𝚁𝚁𝚈 𝚂𝙸𝚁, 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙱𝙰𝙽𝙽𝙴𝙳 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴""", disable_web_page_preview=True)                  
+                    await bot.send_message(chat_id=update.from_user.id, text="""𝖨'𝗆 𝖲𝗈𝗋𝗋𝗒, 𝖸𝗈𝗎 𝖺𝗋𝖾 𝖻𝖺𝗇𝗇𝖾𝖽 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾!""", disable_web_page_preview=True)                  
                     return
             except UserNotParticipant:
                 mrk, file_id = update.text.split("-mo-tech-group-")
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://telegra.ph/file/c8da76cb4b85187755d89.jpg"]
                 invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
-                pr0fess0r_99 = [[ InlineKeyboardButton("🔰 𝙹𝙾𝙸𝙽 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰", url=invite_link.invite_link) ],
-                                [ InlineKeyboardButton("🔄 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 🔄", callback_data=f"luciferPM#{file_id}") ]]
+                pr0fess0r_99 = [[ InlineKeyboardButton("⭕ ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⭕", url=invite_link.invite_link) ],
+                                [ InlineKeyboardButton("🔄 ᴛʀʏ ᴀɢᴀɪɴ 🔄", callback_data=f"luciferPM#{file_id}") ]]
                 pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
                 await update.reply_photo(photo=random.choice(FORCES), caption=f"""<i><b>𝙷𝙴𝙻𝙻𝙾 {update.from_user.mention}. \n 𝚈𝙾𝚄 𝙷𝙰𝚅𝙴 <a href="{invite_link.invite_link}"> 𝙽𝙾𝚃 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴𝙳</a> 𝚃𝙾 <a href="{invite_link.invite_link}">𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻</a>.𝚂𝙾 𝚈𝙾𝚄 𝙳𝙾 𝙽𝙾𝚃 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙵𝙸𝙻𝙴𝚂 𝙾𝙽 𝙱𝙾𝚃 𝙿𝙼 𝙾𝚁 𝙶𝚁𝙾𝚄𝙿 (𝙵𝙸𝙻𝚃𝙴𝚁)</i></b>""", reply_markup=pr0fess0r_99)                
                 return
