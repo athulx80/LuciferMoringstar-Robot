@@ -55,7 +55,7 @@ async def cb_handler(bot, update):
             try:
                 data = temp.BUTTONS[keyword]
             except KeyError:
-                await update.answer("𝚃𝙷𝙸𝚂 𝙼𝚈 𝙾𝙻𝙳 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚂𝙾 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙶𝙰𝙸𝙽 🙏",show_alert=True)
+                await update.answer("𝖳𝗁𝗂𝗌 𝗆𝗒 𝗈𝗅𝖽 𝗆𝖾𝗌𝗌𝖺𝗀𝖾 𝗌𝗈 𝗉𝗅𝖾𝖺𝗌𝖾 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖠𝗀𝖺𝗂𝗇 🙏",show_alert=True)
                 return
 
             if int(index) == int(data["total"]) - 2:
@@ -66,7 +66,7 @@ async def cb_handler(bot, update):
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(text="🤖 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 🤖", url=f"https://telegram.dog/{temp.Bot_Username}")]
+                    [InlineKeyboardButton(text="🤖 ᴄʜᴇᴄᴋ ᴍʏ ᴘᴍ", url=f"https://telegram.dog/{temp.Bot_Username}")]
                 )
                 await update.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
@@ -81,7 +81,7 @@ async def cb_handler(bot, update):
                      InlineKeyboardButton("➡", callback_data=f"nextgroup_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(text="🤖 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 🤖", url=f"https://telegram.dog/{temp.Bot_Username}")]
+                    [InlineKeyboardButton(text="🤖 ᴄʜᴇᴄᴋ ᴍʏ ᴘᴍ", url=f"https://telegram.dog/{temp.Bot_Username}")]
                 )
                 await update.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(buttons))                
                 return
@@ -91,7 +91,7 @@ async def cb_handler(bot, update):
             try:
                 data = temp.BUTTONS[keyword]
             except KeyError:
-                await update.answer("𝚃𝙷𝙸𝚂 𝙼𝚈 𝙾𝙻𝙳 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚂𝙾 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙶𝙰𝙸𝙽 🙏",show_alert=True)
+                await update.answer("𝖳𝗁𝗂𝗌 𝗆𝗒 𝗈𝗅𝖽 𝗆𝖾𝗌𝗌𝖺𝗀𝖾 𝗌𝗈 𝗉𝗅𝖾𝖺𝗌𝖾 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖠𝗀𝖺𝗂𝗇 🙏",show_alert=True)
                 return
             if int(index) == 1:
                 buttons = data['buttons'][int(index)-1].copy()
@@ -101,7 +101,7 @@ async def cb_handler(bot, update):
                      InlineKeyboardButton("➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(text="🤖 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 🤖", url=f"https://telegram.dog/{temp.Bot_Username}")]
+                    [InlineKeyboardButton(text="🤖 ᴄʜᴇᴄᴋ ᴍʏ ᴘᴍ", url=f"https://telegram.dog/{temp.Bot_Username}")]
                 )
                 await update.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(buttons))                
                 return   
@@ -114,7 +114,7 @@ async def cb_handler(bot, update):
                      InlineKeyboardButton("➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(text="🤖 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 🤖", url=f"https://telegram.dog/{temp.Bot_Username}")]
+                    [InlineKeyboardButton(text="🤖 ᴄʜᴇᴄᴋ ᴍʏ ᴘᴍ", url=f"https://telegram.dog/{temp.Bot_Username}")]
                 )
                 await update.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(buttons))                
                 return
@@ -124,7 +124,7 @@ async def cb_handler(bot, update):
             try:
                 data = temp.BUTTONS[keyword]
             except KeyError:
-                await update.answer("𝚃𝙷𝙸𝚂 𝙼𝚈 𝙾𝙻𝙳 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚂𝙾 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙶𝙰𝙸𝙽 🙏",show_alert=True)
+                await update.answer("𝖳𝗁𝗂𝗌 𝗆𝗒 𝗈𝗅𝖽 𝗆𝖾𝗌𝗌𝖺𝗀𝖾 𝗌𝗈 𝗉𝗅𝖾𝖺𝗌𝖾 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖠𝗀𝖺𝗂𝗇 🙏",show_alert=True)
                 return
             if int(index) == int(data["total"]) - 2:
                 buttons = data['buttons'][int(index)+1].copy()
@@ -153,7 +153,7 @@ async def cb_handler(bot, update):
             try:
                 data = temp.BUTTONS[keyword]
             except KeyError:
-                await update.answer("𝚃𝙷𝙸𝚂 𝙼𝚈 𝙾𝙻𝙳 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚂𝙾 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙶𝙰𝙸𝙽 🙏",show_alert=True)
+                await update.answer("𝖳𝗁𝗂𝗌 𝗆𝗒 𝗈𝗅𝖽 𝗆𝖾𝗌𝗌𝖺𝗀𝖾 𝗌𝗈 𝗉𝗅𝖾𝖺𝗌𝖾 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖠𝗀𝖺𝗂𝗇 🙏",show_alert=True)
                 return
             if int(index) == 1:
                 buttons = data['buttons'][int(index)-1].copy()
