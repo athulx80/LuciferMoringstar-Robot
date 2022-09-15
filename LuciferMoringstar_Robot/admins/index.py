@@ -99,8 +99,8 @@ async def send_for_index(bot, message):
 
     if message.from_user.id in ADMINS:
         buttons = [[
-         InlineKeyboardButton('𝚈𝙴𝚂', callback_data=f'index#accept#{chat_id}#{last_msg_id}#{message.from_user.id}'),
-         InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴', callback_data='close_data')
+         InlineKeyboardButton('ʏᴇꜱ', callback_data=f'index#accept#{chat_id}#{last_msg_id}#{message.from_user.id}'),
+         InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close_data')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply(
