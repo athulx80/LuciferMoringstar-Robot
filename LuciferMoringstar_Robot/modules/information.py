@@ -89,19 +89,19 @@ async def who_is(client, message):
             joined_date = datetime.fromtimestamp(
                 chat_member_p.joined_date or time.time()
             ).strftime("%Y.%m.%d %H:%M:%S")
-            message_out_str += f"<b>➲𝙹𝙾𝙸𝙽𝙴𝙳 𝚃𝙷𝙸𝚂 𝙲𝙷𝙰𝚃 𝙾𝙽: <code>{joined_date}</code>\n"            
+            message_out_str += f"<b>➲ 𝙹𝙾𝙸𝙽𝙴𝙳 𝚃𝙷𝙸𝚂 𝙲𝙷𝙰𝚃 𝙾𝙽: <code>{joined_date}</code>\n"            
         except UserNotParticipant:
             pass
     chat_photo = from_user.photo
     if chat_photo:
         local_user_photo = await client.download_media(message=chat_photo.big_file_id)
         
-        pr0fess0r_99 = [[ InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close') ]]
+        pr0fess0r_99 = [[ InlineKeyboardButton('🔒 ᴄʟᴏꜱᴇ', callback_data='close') ]]
         pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
         await message.reply_photo(photo=local_user_photo, reply_markup=pr0fess0r_99, caption=message_out_str)        
         os.remove(local_user_photo)
     else:
-        pr0fess0r_99 = [[ InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close') ]]
+        pr0fess0r_99 = [[ InlineKeyboardButton('🔒 ᴄʟᴏꜱᴇ', callback_data='close') ]]
         pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
         await message.reply_text(text=message_out_str, reply_markup=pr0fess0r_99, disable_notification=True)        
 
