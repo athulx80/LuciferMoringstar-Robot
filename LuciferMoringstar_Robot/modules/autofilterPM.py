@@ -69,8 +69,8 @@ async def pm_filters(client, update):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages"),
-                 InlineKeyboardButton("Close 🗑️", callback_data="close")]
+                [InlineKeyboardButton(text="📃 PAGES 1/1",callback_data="pages"),
+                 InlineKeyboardButton("CLOSE 🗑️", callback_data="close")]
             )
 
 
