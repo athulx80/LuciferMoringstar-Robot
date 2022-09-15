@@ -180,7 +180,7 @@ async def cb_handler(bot, update):
             mrk, set_type, status, grp_id = update.data.split("#")
             grpid = await active_connection(str(update.from_user.id))
             if str(grp_id) != str(grpid):
-                await update.message.edit("𝙸𝙰𝙼 𝙽𝙾𝚃 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝙰𝙽𝚈 𝙶𝚁𝙾𝚄𝙿..!\n   𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 /connect 𝙰𝙽𝙳 𝙲𝙾𝙽𝙽𝙴𝙲𝚃 𝚈𝙾𝚄𝚁 𝙲𝙷𝙰𝚃")
+                await update.message.edit("𝖨'𝗆 𝖭𝗈𝗍 𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝖾𝖽 𝖠𝗇𝗒 𝖦𝗋𝗈𝗎𝗉...!\n   𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 /connect 𝙰𝙽𝙳 𝙲𝙾𝙽𝙽𝙴𝙲𝚃 𝚈𝙾𝚄𝚁 𝙲𝙷𝙰𝚃")
             if status == "True":
                 await save_group_settings(grpid, set_type, False)
             else:
@@ -519,7 +519,7 @@ async def cb_handler(bot, update):
                         await update.message.edit("𝙼𝙰𝙺𝙴 𝚂𝚄𝚁𝙴 𝙸'𝙼 𝙿𝚁𝙴𝚂𝙴𝙽𝚃 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿..!", quote=True)
                         return 
                 else:
-                    await update.message.edit("𝙸𝙰𝙼 𝙽𝙾𝚃 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝚃𝙾 𝙰𝙽𝚈 𝙶𝚁𝙾𝚄𝙿..!\n 𝙲𝙷𝙴𝙲𝙺 /connections 𝙾𝚁 𝙲𝙾𝙽𝙽𝙴𝙲𝚃 𝚃𝙾 𝙰𝙽𝚈 𝙶𝚁𝙾𝚄𝙿𝚂", quote=True)
+                    await update.message.edit("𝖨'𝗆 𝖭𝗈𝗍 𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝖾𝖽 𝖠𝗇𝗒 𝖦𝗋𝗈𝗎𝗉..!\n 𝙲𝙷𝙴𝙲𝙺 /connections 𝙾𝚁 𝙲𝙾𝙽𝙽𝙴𝙲𝚃 𝚃𝙾 𝙰𝙽𝚈 𝙶𝚁𝙾𝚄𝙿𝚂", quote=True)
                     return
             elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
                 grp_id = update.message.chat.id
